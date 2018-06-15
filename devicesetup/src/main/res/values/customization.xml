@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="brand_name">Particle</string>
+    <string name="brand_name">Stemy Energy</string>
     <string name="app_name">@string/brand_name</string>
-    <string name="device_name">Photon</string>
-    <drawable name="device_image">@drawable/photon_vector</drawable>
-    <drawable name="device_image_small">@drawable/photon_vector_small</drawable>
+    <string name="device_name">Stemy</string>
+    <drawable name="device_image">@drawable/ampere</drawable>
+    <drawable name="device_image_small">@drawable/ampere</drawable>
 
-    <drawable name="brand_image_horizontal">@drawable/particle_horizontal_blue</drawable>
-    <drawable name="brand_image_vertical">@drawable/particle_vertical_blue</drawable>
-    <drawable name="screen_background">@drawable/trianglifybackground</drawable>
+    <drawable name="brand_image_horizontal">@drawable/stemy_bg</drawable>
+    <drawable name="brand_image_vertical">@drawable/ic_stemy</drawable>
+    <drawable name="screen_background">@drawable/navigation_bg_vertical</drawable>
     <color name="brand_image_background_color">#641A1A1A</color>
 
-    <string name="mode_button_name">Setup button</string>
-    <string name="listen_mode_led_color_name">blue</string>
+    <string name="mode_button_name">botón Setup</string>
+    <string name="listen_mode_led_color_name">azul</string>
     <string name="network_name_prefix">@string/device_name</string>
 
-    <string name="terms_of_service_uri">https://www.particle.io/tos</string>
+    <!--<string name="terms_of_service_uri">https://www.particle.io/tos</string>
     <string name="privacy_policy_uri">https://www.particle.io/privacy</string>
     <string name="forgot_password_uri">https://login.particle.io/forgot</string>
     <string name="troubleshooting_uri">
         https://community.particle.io/t/spark-core-troubleshooting-guide-spark-team/696
-    </string>
+    </string>-->
+
+    <string name="terms_of_service_uri">https://www.stemyenergy.com/privacy-policy</string>
+    <string name="privacy_policy_uri">https://www.stemyenergy.com/privacy-policy</string>
+    <string name="forgot_password_uri">https://www.stemyenergy.com</string>
+    <string name="troubleshooting_uri">https://www.stemyenergy.com</string>
 
     <!-- FIXME: support static HTML for all these -->
     <string name="terms_of_service_html_file">NOT_DEFINED</string>
@@ -73,16 +78,16 @@
     <integer name="product_id">0</integer>
 
     <!-- FIXME: apparently these values aren't customizable on the iOS app? -->
-    <string name="indicator_light">indicator light</string>
+    <string name="indicator_light">led frontal</string>
     <string name="power_on_action">plugging it in</string>
 
-    <!-- FIXME: figure out how these should relate to the colors defined above -->
+    !-- FIXME: figure out how these should relate to the colors defined above -->
     <!-- primary_color is used for the default action bar background -->
-    <color name="primary_color">@color/element_background_color</color>
+    <color name="primary_color">@color/colorPrimary</color>
     <!-- As named, just a darker variant of the primary color, used to color the status bar -->
     <color name="primary_color_dark">@color/shaded_background</color>
     <!-- accent_color is used as the default value for tinting widgets -->
-    <color name="accent_color">@color/element_background_color</color>
+    <color name="accent_color">@color/colorAccent</color>
     <color name="system_bar_bg">@android:color/transparent</color>
 
     <!-- the distance between EditText elements in a "form" like the register and login screens -->

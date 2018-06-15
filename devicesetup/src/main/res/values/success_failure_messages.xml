@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+<!--
     <string name="setup_success_summary">Setup completed successfully!</string>
     <string name="setup_success_details">Congrats! You\'ve successfully set up your {device_name}!</string>
 
@@ -17,5 +17,22 @@
     <string name="setup_failure_configure_details">Setup process couldn\'t configure the Wi-Fi credentials for your {device_name}, please try running setup again after resetting your {device_name} and putting it back in blinking blue listen mode if needed.</string>
 
     <string name="setup_failure_lost_connection_to_device">Setup process lost connection to the {device_name} before being able to configure it to use the supplied Wi-fi credentials, please try running setup again after resetting your {device_name} and putting it back in listen mode if needed.</string>
+-->
+    <string name="setup_success_summary">Configuración completada con éxito!</string>
+    <string name="setup_success_details">Enhorabuena! Has configurado correctamente tu dispositivo {device_name}!</string>
+
+    <string name="setup_success_unknown_ownership_summary">Configuración completa!</string>
+    <string name="setup_success_unknown_ownership_details">La configuración está completa pero no eres el dueño del dispositivo {device_name} se ha conectado a internet. Si el led respira en cian ha funcionado! Si no, vuelve a empezar.</string>
+
+    <string name="setup_failure_claiming_summary">Oops!</string>
+    <string name="setup_failure_claiming_details">El proceso de configuración no ha podido reclamar to {device_name}! Si el led del dispositivo {device_name} está parpadeando azul o verde puede que hayas escrito mal los credenciales de la red. Si el led está respirando cian puede que haya ocurrido un error en el servidor.</string>
+
+    <string name="setup_failure_no_disconnect_from_device_summary">Uh oh!</string>
+    <string name="setup_failure_no_disconnect_from_device_details">La configuración no ha conseguido desconectarse de la red Wi-Fi del dispositivo {device_name} Wi-Fi network. Esto es un error interno del dispositivo, por favor prueba a resetear tu {device_name} y volver a empezar.</string>
+
+    <string name="setup_failure_configure_summary">Error!</string>
+    <string name="setup_failure_configure_details">No se han podido configurar las credenciales de la red Wi-Fi para tu {device_name}, por favor prueba a resetear tu {device_name} y volver a empezar.</string>
+
+    <string name="setup_failure_lost_connection_to_device">Se ha perdido la conexión con tu {device_name} antes de terminar el proceso de configuración, por favor prueba a resetear tu {device_name} y volver a empezar.</string>
 
 </resources>

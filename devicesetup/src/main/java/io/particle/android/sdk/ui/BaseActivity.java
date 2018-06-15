@@ -22,7 +22,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 @SuppressLint("Registered")
 public class BaseActivity extends AppCompatActivity {
     @RestrictTo(RestrictTo.Scope.LIBRARY)
-    public static boolean setupOnly = false;
+    public static boolean setupOnly = true;
     private static boolean customFontInitDone = false;
 
     @Override
