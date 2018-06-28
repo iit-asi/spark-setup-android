@@ -20,7 +20,7 @@ import static io.particle.android.sdk.utils.Py.truthy;
 
 
 public class CommandClient {
-    static final int DEFAULT_TIMEOUT_SECONDS = 30;
+    static final int DEFAULT_TIMEOUT_SECONDS = 60;
 
     private static final TLog log = TLog.get(CommandClient.class);
     private static final Gson gson = new Gson();
