@@ -100,6 +100,9 @@
     <!--<string name="action_done">Done</string>-->
     <string name="action_done">Hecho</string>
     <string name="title_activity_password_reset">Password Reset</string>
+
+    <!--<string name="title_activity_two_factor">Two Step Authentication</string>-->
+    <string name="title_activity_two_factor">Two Step Authentication</string>
     <!--<string name="manual_network_name">Manual network name</string>-->
     <string name="manual_network_name">Búsqueda manual</string>
     <!--<string name="manual_network_name_entry">Manual network name entry</string>-->
@@ -108,6 +111,7 @@
     <string name="hint_network_name">nombre de la red</string>
     <!--<string name="network_requires_password">Network requires password</string>-->
     <string name="network_requires_password">La red está protegida por una contraseña</string>
+
     <string name="reset_password">Reset Password</string>
     <string name="request_password_reset">Request password reset</string>
     <!--<string name="this_network_requires_a_password">This network requires a password</string>-->
@@ -153,6 +157,11 @@
     <string name="dialog_title_owned_by_another_user">This %1$s is owned by another user.  Change owner to %2$s?</string>
     <string name="change_owner_question">Change owner?</string>
     <string name="change_owner">Change owner</string>
-
+    <string name="enter_login_code_title">Enter a login code</string>
+    <string name="login_code_hint">login code</string>
+    <string name="authentication_info">Open your authenticator app on your mobile device and enter the 6-digit login code</string>
+    <string name="verify_button_text">Verify</string>
+    <string name="recover_link_text">&lt;u&gt;Lost access to your phone? Recover your account.&lt;/u&gt;</string>
+    <string name="recovery_link">https://login.particle.io/account-info</string>
 
 </resources>

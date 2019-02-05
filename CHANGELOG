@@ -1,3 +1,15 @@
+0.6.2
+=====
+* Fix Photon setup for recent Samsung devices
+
+0.6.1
+=====
+* Fix to accommodate Android 9 behavior change re: WiFi networks
+
+0.6.0
+=====
+* New features - Two factor authentication.
+
 0.5.3
 =====
 * Particle CloudSdk update.
