@@ -92,7 +92,7 @@
     <!--<string name="connect_to_wifi_network">Connecting to Wi-Fi network</string>-->
     <string name="connect_to_wifi_network">Conectando a la red Wi-Fi</string>
     <!--<string name="configure_device_wifi_credentials">Configuring device Wi-Fi credentials</string>-->
-    <string name="configure_device_wifi_credentials">Configuranco las credenciales Wi-Fi del dispositivo</string>
+    <string name="configure_device_wifi_credentials">Configurando las credenciales Wi-Fi del dispositivo</string>
     <!--<string name="wait_for_device_cloud_connection">Waiting for device cloud connection</string>-->
     <string name="wait_for_device_cloud_connection">Esperando a que el dispositivo se conecte a la nube</string>
     <!--<string name="verify_product_ownership">Verifying product ownership</string>-->
