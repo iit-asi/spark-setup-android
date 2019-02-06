@@ -81,7 +81,7 @@ public class DiscoverProcessWorker {
 
             // device was never claimed before - so we need to claim it anyways
             if (!isDetectedDeviceClaimed) {
-                setClaimCode();
+                //setClaimCode(); //FIXME: STEMYFIX to avoid crush in already claimed devices
                 needToClaimDevice = true;
 
             } else {
