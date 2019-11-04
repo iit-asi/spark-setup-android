@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mode_button_name">botón Setup</string>
+    <string name="listen_mode_led_color_name">azul</string>
+
+
+    <!-- FIXME: apparently these values aren't customizable on the iOS app? -->
+    <string name="indicator_light">led frontal</string>
+
+</resources>

@@ -2,65 +2,36 @@
 <resources>
 
     <!-- Phrase-templated strings -->
-
-    <string name="reconnect_to_wifi_network">Desconectándose de la red del dispositivo</string>
-
-    <string name="location_required">Localización desactivada</string>
-
-    <string name="enable_location">Activar localización</string>
-    <string name="device_naming_hint">none</string>
-    <string name="device_naming_label">Name your new device:</string>
-    <string name="device_naming_failure">Failed to change device name</string>
-    <string name="location_required_message">Se necesita la localización para terminar
-        el proceso de configuración del dispositivo Stemy. No se usará esta información para
-        ningún otro propósito.
-    </string>
-
-    <!-- Phrase-templated strings -->
-    <!--<string name="msg_device_not_listed">{device_name} not listed here? Hold the {setup_button_identifier} for three seconds to put it in setup mode; the {indicator_light} should turn {indicator_light_setup_color_name}</string>Tresmele Removed-->
-    <string name="msg_device_not_listed">Si tu dispositivo {device_name} no aparece asegurate que el {indicator_light} está parpadeando en {indicator_light_setup_color_name}. Si no, pulsa el {setup_button_identifier} durante 2 segundos</string>
-    <!--<string name="get_ready_title_text">Time to set up your {device_name}!</string> Tresmele Removed-->
-    <string name="get_ready_title_text">Configuración inicial de tu dispositivo {device_name}!</string>
+    <string name="msg_device_not_listed">{device_name} not listed here? Hold the {setup_button_identifier} for three seconds to put it in setup mode; the {indicator_light} should turn {indicator_light_setup_color_name}</string>
+    <string name="get_ready_title_text">Time to set up your {device_name}!</string>
     <string name="get_ready_text"><![CDATA[\n
-\u2022 Para empezar, enciende tu dispositivo {device_name}. \n\n
-\u2022 El led debería emitir un parpadeo de color {indicator_light_setup_color_name}. Si no es así presiona el {setup_button_identifier} dos segundos.\n\n
-\u2022 Asegúrate de que el dispositivo Android está conectado a internet\n\n
-\u2022 Pulsa el botón cuando estés listo.]]></string>
-    <!--<<string name="get_ready_text"><![CDATA[\n
 \u2022 Please power on your {device_name} by plugging it in.\n\n
 \u2022 The indicator light should blink {indicator_light_setup_color_name}. If this {device_name} has been set up before, hold the {setup_button_identifier} for 3 seconds to set up again.\n\n
 \u2022 Make sure your Android device is connected to the internet.\n\n
-\u2022 Tap the READY button to proceed.]]></string> Tresmele Removed-->
-    <string name="wifi_list_header_text">Elige un dispositivo {device_name}</string>
-    <!--<string name="wifi_list_header_text">Choose your {device_name}</string>Tresmele Removed-->
-    <!--<string name="connecting_text">Your {device_name} is connecting to</string>-->
-    <string name="connecting_text">El dispositivo {device_name} se está conectando a</string>
-    <!--<string name="your_device_is_connected">Your {device_name} is connected!</string>-->
-    <string name="your_device_is_connected">Tu {device_name} está conectado!</string>
+\u2022 Tap the READY button to proceed.]]></string>
+    <string name="wifi_list_header_text">Choose your {device_name}</string>
+    <string name="connecting_text">Your {device_name} is connecting to</string>
+    <string name="your_device_is_connected">Your {device_name} is connected!</string>
     <string name="msg_create_account_disclaimer"><![CDATA[By clicking "SIGN UP" you are indicating that you have read and agreed to the <a href="{tos_link}">Terms of Service</a> and <a href="{privacy_policy_link}">Privacy Policy.</a>]]></string>
-    <string name="create_account_header_text">Crear cuenta {brand_name}</string>
+    <string name="create_account_header_text">Create {brand_name} account</string>
     <string name="log_in_header_text">{brand_name} Login</string>
     <string name="you_are_logged_in_as">You are logged in as: {username}</string>
     <string name="set_up_another_device">Set up another {device_name}</string>
-    <!--<string name="empty_soft_ap_list_text">(No {device_name} devices found)</string>Tresmele Removed-->
-    <string name="empty_soft_ap_list_text">(No se han encontrado dispositivos {device_name})</string>
-    <!--<string name="connecting_to_soft_ap">Connecting to {device_name}…</string>Tresmele removed-->
-    <string name="connecting_to_soft_ap">Conectandose al dispositivo {device_name}…</string>
-    <string name="unable_to_connect_to_soft_ap">Por favor resetea el dispositivo {device_name} y prueba otra vez.</string>
+    <string name="empty_soft_ap_list_text">(No {device_name} devices found)</string>
+    <string name="connecting_to_soft_ap">Connecting to {device_name}…</string>
+    <string name="unable_to_connect_to_soft_ap">Please try running setup again after resetting your {device_name} and putting it back in blinking blue listen mode if needed.</string>
 
     <!-- regular strings -->
     <string name="set_up_your_product">Get Started</string>
     <string name="title_activity_web_view">WebView</string>
     <string name="title_activity_get_ready">Get Ready</string>
     <string name="title_activity_intro">Intro</string>
-    <!--<string name="title_activity_manual_network_entry">Manual Network Entry</string>-->
-    <string name="title_activity_manual_network_entry">Introduce el nombre de la red</string>
+    <string name="title_activity_manual_network_entry">Manual Network Entry</string>
     <string name="title_activity_create_account">Create account</string>
     <string name="title_activity_discover_device">Choose device</string>
     <string name="title_activity_select_network">Choose Wi-Fi network</string>
     <string name="title_activity_password_entry">Enter Wi-Fi password</string>
-    <!--<string name="title_activity_connecting">Connecting</string>-->
-    <string name="title_activity_connecting">Conectando</string>
+    <string name="title_activity_connecting">Connecting</string>
     <string name="title_activity_troubleshooting">Troubleshooting</string>
     <string name="title_activity_success">Success!</string>
     <string name="action_settings">Settings</string>
@@ -71,71 +42,51 @@
     <string name="msg_user_already_has_account">&lt;u&gt;I already have an account&lt;/u&gt;</string>
     <string name="activation_code">activation code</string>
     <string name="troubleshooting">&lt;u&gt;Troubleshooting&lt;/u&gt;</string>
-    <string name="im_ready">Comencemos</string>
-    <!--<string name="im_ready">Ready</string>Tresmele removed-->
-    <!--<string name="connecting">Connecting</string>-->
-    <string name="connecting">Conectando</string>
-    <!--<string name="connecting_text_2">This can take about a minute.</string>-->
-    <string name="connecting_text_2">Este proceso puede tardar un minuto.</string>
-    <string name="cancel">Cancelar</string>
+    <string name="im_ready">Ready</string>
+    <string name="connecting">Connecting</string>
+    <string name="connecting_text_2">This can take about a minute.</string>
+    <string name="cancel">Cancel</string>
     <string name="test_connection">Test connection</string>
     <string name="continue_str">Continue</string>
     <string name="you_did_it">YOU DID IT</string>
-    <string name="rescan">Reescanear</string>
+    <string name="rescan">Rescan</string>
     <string name="log_out">Log out</string>
-    <!--<string name="select_your_wifi_network">Select your Wi-Fi network</string>Tresmele removed-->
-    <string name="select_your_wifi_network">Elige una red Wi-Fi</string>
-    <!--<string name="no_wifi_networks_found">(No Wi-Fi networks found)</string>-->
-    <string name="no_wifi_networks_found">(No se han encontrado redes Wi-Fi)</string>
-    <!--<string name="check_for_internet_connectivity">Checking for internet connectivity</string>-->
-    <string name="check_for_internet_connectivity">Comprobando la conexión a internet</string>
-    <!--<string name="connect_to_wifi_network">Connecting to Wi-Fi network</string>-->
-    <string name="connect_to_wifi_network">Conectando a la red Wi-Fi</string>
-    <!--<string name="configure_device_wifi_credentials">Configuring device Wi-Fi credentials</string>-->
-    <string name="configure_device_wifi_credentials">Configurando las credenciales Wi-Fi del dispositivo</string>
-    <!--<string name="wait_for_device_cloud_connection">Waiting for device cloud connection</string>-->
-    <string name="wait_for_device_cloud_connection">Esperando a que el dispositivo se conecte a la nube</string>
-    <!--<string name="verify_product_ownership">Verifying product ownership</string>-->
-    <string name="verify_product_ownership">Verificando dispositivo</string>
-    <!--<string name="action_done">Done</string>-->
-    <string name="action_done">Hecho</string>
+    <string name="select_your_wifi_network">Select your Wi-Fi network</string>
+    <string name="no_wifi_networks_found">(No Wi-Fi networks found)</string>
+    <string name="check_for_internet_connectivity">Checking for internet connectivity</string>
+    <string name="connect_to_wifi_network">Connecting to Wi-Fi network</string>
+    <string name="reconnect_to_wifi_network">Disconnecting from softAP</string>
+    <string name="configure_device_wifi_credentials">Configuring device Wi-Fi credentials</string>
+    <string name="wait_for_device_cloud_connection">Waiting for device cloud connection</string>
+    <string name="verify_product_ownership">Verifying product ownership</string>
+    <string name="action_done">Done</string>
     <string name="title_activity_password_reset">Password Reset</string>
-
-    <!--<string name="title_activity_two_factor">Two Step Authentication</string>-->
     <string name="title_activity_two_factor">Two Step Authentication</string>
-    <!--<string name="manual_network_name">Manual network name</string>-->
-    <string name="manual_network_name">Búsqueda manual</string>
-    <!--<string name="manual_network_name_entry">Manual network name entry</string>-->
-    <string name="manual_network_name_entry">Entrada manual de red</string>
-    <!--<string name="hint_network_name">network name</string>-->
-    <string name="hint_network_name">nombre de la red</string>
-    <!--<string name="network_requires_password">Network requires password</string>-->
-    <string name="network_requires_password">La red está protegida por una contraseña</string>
-
+    <string name="manual_network_name">Manual network name</string>
+    <string name="manual_network_name_entry">Manual network name entry</string>
+    <string name="hint_network_name">network name</string>
+    <string name="network_requires_password">Network requires password</string>
     <string name="reset_password">Reset Password</string>
     <string name="request_password_reset">Request password reset</string>
-    <!--<string name="this_network_requires_a_password">This network requires a password</string>-->
-    <string name="this_network_requires_a_password">Esta red está protegida por una contraseña</string>
-    <string name="connect">Conectar</string>
-    <!--<string name="password">Password</string>-->
-    <string name="password">Contraseña</string>
-    <!--<string name="show_password">Show password</string>-->
-    <string name="show_password">Mostrar contraseña</string>
-    <!--<string name="change_network">Change network</string>-->
-    <string name="change_network">Cambiar red</string>
-    <string name="done">Completado!</string>
-    <!--<string name="done">Done!</string>-->
-    <string name="get_ready_could_not_connect_to_cloud">No se ha podido conectar con la nube.  Asegurese de que su dispositivo tiene acceso a internet y vuelva a intentarlo.</string>
+    <string name="this_network_requires_a_password">This network requires a password</string>
+    <string name="connect">Connect</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="change_network">Change network</string>
+    <string name="done">Done!</string>
+    <string name="get_ready_could_not_connect_to_cloud">Could not communicate with Photon cloud.  Make sure your Android device is connected to the internet and retry.</string>
     <string name="error">Error</string>
     <string name="ok">OK</string>
-    <string name="access_denied">Acceso denegado</string>
-    <string name="wifi_required">Wi-Fi desactivado</string>
-    <string name="setup_requires_wifi">La configuración require Wi-Fi.</string>
-    <string name="enable_wifi">Activar Wi-Fi</string>
-    <string name="exit_setup">Salir</string>
-    <string name="location_permission_dialog_text">La configuración necesita escanear redes Wi-Fi para encontrar el dispositivo.\n\nEsto puede revelar tu ubicación, por lo que se necesita dicho permiso.\n\nLa configuración continuará cuando el permiso sea concedido.</string>
-    <string name="location_permission_dialog_title">Se necesita el permiso</string>
-    <string name="got_it">Entendido</string>
+    <string name="access_denied">Access denied</string>
+    <string name="wifi_required">Wi-Fi Required</string>
+    <string name="location_required">Location Required</string>
+    <string name="setup_requires_wifi">Setting up devices requires Wi-Fi.  Enable it now?</string>
+    <string name="enable_wifi">Enable Wi-Fi</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="exit_setup">Exit setup</string>
+    <string name="location_permission_dialog_text">Setup needs to scan Wi-Fi to find your new device.\n\nBecause these scans could also reveal your location, setup requires the Location permission.\n\nSetup will continue after you press ALLOW on the next screen.</string>
+    <string name="location_permission_dialog_title">Permission needed</string>
+    <string name="got_it">got it</string>
     <string name="location_permission_denied_dialog_title">Location permission required</string>
     <string name="location_permission_denied_dialog_text"><![CDATA[The Location permission has been disabled for this app.  Please change this in Permissions for this app under Settings -> Apps.]]></string>
     <string name="reset_password_dialog_title">Reset password</string>
@@ -148,15 +99,19 @@
     <string name="location_permission_denied_cannot_start_setup">Location permission denied, cannot start setup</string>
     <string name="enterprise_networks_not_supported">Enterprise Wi-Fi networks not supported for mobile setup.</string>
     <string name="settings">Settings</string>
-    <!--<string name="secured_with_wep">Secured with WEP</string>-->
-    <!--<string name="secured_with_wpa">Secured with WPA</string>-->
-    <!--<string name="secured_with_wpa2">Secured with WPA2</string>-->
-    <string name="secured_with_wep">Seguridad WEP</string>
-    <string name="secured_with_wpa">Seguridad WPA</string>
-    <string name="secured_with_wpa2">Seguridad WPA2</string>
+    <string name="secured_with_wep">Secured with WEP</string>
+    <string name="secured_with_wpa">Secured with WPA</string>
+    <string name="secured_with_wpa2">Secured with WPA2</string>
     <string name="dialog_title_owned_by_another_user">This %1$s is owned by another user.  Change owner to %2$s?</string>
     <string name="change_owner_question">Change owner?</string>
     <string name="change_owner">Change owner</string>
+    <string name="device_naming_hint">none</string>
+    <string name="device_naming_label">Name your new device:</string>
+    <string name="device_naming_failure">Failed to change device name</string>
+    <string name="location_required_message">This access allows you to pair your Android device with
+        your Photon to complete the setup process. Particle will not use location data for any other
+        purposes.
+    </string>
     <string name="enter_login_code_title">Enter a login code</string>
     <string name="login_code_hint">login code</string>
     <string name="authentication_info">Open your authenticator app on your mobile device and enter the 6-digit login code</string>
