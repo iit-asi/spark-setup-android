@@ -140,6 +140,8 @@ public class DiscoverDeviceActivity extends RequiresWifiScansActivity
         }
 
         Ui.findView(this, R.id.action_log_out).setVisibility(BaseActivity.setupOnly ? View.GONE : View.VISIBLE);
+
+        Ui.findView(this, R.id.action_log_out).setVisibility(View.GONE);
     }
 
     @Override
