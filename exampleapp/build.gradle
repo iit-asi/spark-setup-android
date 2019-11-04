@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.stemyenergy.stemy.config"
         minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 3
-        versionName "1.0.2"
+        targetSdkVersion 28
+        versionCode 5
+        versionName "1.0.3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -21,7 +21,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -33,12 +33,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     // BY DEFAULT, BUILD APP AGAINST THE LOCAL SETUP LIB SOURCE REPO
     // (i.e.: you can make modifications to the device setup lib source in the local repo, and
     // the changes will appear in the example app just by rebuilding, as you'd expect)
-    compile project(':devicesetup')
+    implementation project(':devicesetup')
     //
     //  *OR*
     //
@@ -46,7 +46,7 @@ dependencies {
     // UNCOMMENT THE FOLLOWING TO USE A PUBLISHED VERSION OF THE SDK:
 //    compile 'io.particle:devicesetup:0.2.0'
 
-    implementation 'com.android.support:support-v4:27.1.1'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
 }
