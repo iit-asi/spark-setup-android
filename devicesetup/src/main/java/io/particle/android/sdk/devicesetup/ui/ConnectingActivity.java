@@ -168,9 +168,10 @@ public class ConnectingActivity extends RequiresWifiScansActivity {
                 waitForDisconnectionFromDeviceStep,
                 ensureSoftApNotVisible,
                 waitForLocalCloudConnectivityStep);
-        if (!BaseActivity.setupOnly) {
+        //Stemy edit avoid checking device ownership
+        /*if (!BaseActivity.setupOnly) {
             steps.add(checkIfDeviceClaimedStep);
-        }
+        }*/
         return steps;
     }
 }

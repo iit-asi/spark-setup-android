@@ -8,8 +8,8 @@ android {
         applicationId "com.stemyenergy.stemy.config"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 5
-        versionName "1.0.3"
+        versionCode 7
+        versionName "1.0.5"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -21,7 +21,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
