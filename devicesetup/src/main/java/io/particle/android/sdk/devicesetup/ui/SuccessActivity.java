@@ -104,7 +104,9 @@ public class SuccessActivity extends BaseActivity {
             if (deviceNameView.getVisibility() == View.VISIBLE && deviceNameView.getText().toString().isEmpty()) {
                 deviceNameView.setError(getString(R.string.error_field_required));
             } else {
-                finishSetup(v.getContext(), deviceNameView.getText().toString(), true);
+                //Stemy edit
+                leaveActivity(v.getContext(), true);
+                //finishSetup(v.getContext(), deviceNameView.getText().toString(), true);
             }
         } else {
             leaveActivity(v.getContext(), false);
